@@ -6,7 +6,7 @@ const HeroOrbit = ({children, size, rotation, shouldOrbit = false, orbitDuration
     size: number;
     rotation: number;
     shouldOrbit?: boolean;
-    orbitDuration?: number;
+    orbitDuration?: string;
     shouldSpin?: boolean;
     spinDuration?: string;
 }>) => {

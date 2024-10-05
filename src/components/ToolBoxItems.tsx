@@ -2,13 +2,15 @@ import TechIcon from "@/components/TechIcon";
 import React, {Fragment} from "react";
 import {twMerge} from "tailwind-merge";
 
-const ToolBoxItems = ({items, className, itemsWrapperClassName}: {
+const ToolBoxItems = ({
+                          items, className, itemsWrapperClassName,
+                      }: {
     items: {
         title: string;
         iconType: React.ElementType;
-        className?: string;
-        itemsWrapperClassName?: string;
     }[];
+    className?: string;
+    itemsWrapperClassName?: string;
 }) => {
     return (
         <div
